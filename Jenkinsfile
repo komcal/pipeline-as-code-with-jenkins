@@ -1,7 +1,6 @@
 node {
     stage("stage 1") {
-        npm install
-        npm test
+        echo "npm install"
     }
     stage("stage 2") {
         echo "Complete!"

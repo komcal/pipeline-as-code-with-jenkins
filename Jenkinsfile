@@ -1,6 +1,6 @@
 node {
     stage("stage 1") {
-        echo "Hello"
+        npm test
     }
     stage("stage 2") {
         echo "Complete!"
